@@ -217,15 +217,22 @@ Match the following:\\
 \solution\\
 (a) If $E_1$ and $E_2$ are mutually exclusive events, then $E_1E_2 = \phi$.\\
 (b) If $E_1$ and $E_2$ are mutually exclusive and exhaustive events, then $ E_1 E_2 = \phi $ and $ E_1 + E_2=S $ \\
-(c) If $E_1$ and) $E_2$ have common outcomes, then
+(c) If $E_1$ and) $E_2$ have common outcomes, then let
 \begin{align}
-	E_1&=E_2\\
-	&=E_1 E_2\\
-	&=(E_1-E_2)+(E_1 E_2) && \text{(Since, $E_1-E_2=0$)}
+	E_1&=E_2=E\\
+	\therefore E_1&=E\,E\\
+	&=(E-E)+(E\,E)\\
+        &=(E_1-E_2)+(E_1 E_2)
 \end{align}
-(d) If $E_1$ and $E_2$ are two events such that $E_1 \subset E_2$, then 
+(d) If $E_1$ and $E_2$ are two events such that $E_1 \subset E_2$, then let E be subset of $E_2$ containing elements other than $E_1$. So,
 \begin{align}
-	E_1 E_2&=E_1 && \text{(Since, $E_2$ have all elements of $E_1$)}
+	E_1 + E &= E_2 \text{  and  } E_1 E = E_2\label{eq:exemplar/11/16/3/43/1}
+\end{align}
+Refering to equation \eqref{eq:exemplar/11/16/3/43/1}:
+\begin{align}
+	E_1 E_2 &= E_1 (E_1+E)\\
+	&=(E_1 E_1)+(E_1 E)\\
+	&=E_1
 \end{align}
 	Hence,\\
 $(a)\leftrightarrow(iv),(b)\leftrightarrow(iii),(c)\leftrightarrow(ii),(d)\leftrightarrow(i)$
